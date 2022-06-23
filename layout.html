@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	body{
+	display:grid;
+	grid-template-areas:
+	"header header header"
+	"aside content content"
+	"footer footer footer";
+	grid-template-rows:60px 1fr 60px;
+	grid-template-c0lumngs:20px 1fr 15px;
+	grid-gap:0px;
+	height:100vh;
+	margin:0;
+	}
+	#header{
+	grid-area:header;
+	}
+	#aside{
+	grid-area:aside;
+	}
+	#content{
+	grid-area:content;
+	}
+	#footer{
+	grid-area:footer;
+	}
+	header,aside,footer{
+	background:black;
+	color:white
+	}
+	ul{
+	list-style-type:none;
+	margin:1px;
+	padding:8px;
+	overflow:scrow;
+	background-color:#333;
+	}
+	li{
+	float:left;
+	}
+	li a{
+	display:block;
+	text-align:center;
+	color:white;
+	padding:2px; 4px;
+	}
+	li a:hover{
+	background-color:gray;
+	}
+	h1{
+	color:red;
+	font-size:50px;
+	}
+	p{
+	font-size:25px;
+	color:white;
+	}
+	body{
+	background-color:gray;
+	}
+</style>
+</head>
+<body>
+	<header id="header">
+	<marguee>for more info call our customercare on +233559281280</marguee>
+	<ul>
+		<li><a href="#home">HOME</a></li>
+		<li><a href="#contact">CONTACT</a></li>
+		<li style="float:right"><a class="active">ABOUT</a></li>
+		<li style="float:right"><a class="active" href="layout2.html">SIGN IN/LOGIN</a></li>
+		</ul>
+	</header>
+	<aside id="aside">
+		
+	</aside>
+	<footer id="footer">
+		copryright 2022
+		<marguee>visit Mr.Francis kwagya on;franciskwagya198@gmail.com</marguee>
+	</footer>
+	<h1>WARNING: visit this site may harm your computer!!!!!!</h1>
+	<P>The website you are visiting appears to contain malware.
+	malware is malicious software that may harm your computer or otherwise operatewithout
+	your consent.Your computer can infected just by browsing to a site 
+	with malware, without any further action on your part. </p>
+</body>
+</html>
